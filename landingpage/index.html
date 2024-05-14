@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My App</title>
+  </head>
+  <body>
+    <style>
+      .nav {
+        background-color: #333;
+        color: white;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        box-sizing: border-box;
+      }
+      .hero {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+    <header class="nav">
+      <span>Home</span>
+      <ul style="display: flex; list-style: none; gap: 1rem">
+        <li>About</li>
+        <li>Contact</li>
+        <li>Services</li>
+      </ul>
+    </header>
+    <div class="hero">
+      <div
+        class="box"
+        style="
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        "
+      >
+        <h1>Welcome to my app</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+          recusandae distinctio quas! Nam commodi corporis ea quidem eum aperiam
+          dignissimos nihil fuga sit enim exercitationem officia, alias
+          assumenda veritatis atque.
+        </p>
+      </div>
+      <div class="box" style="flex: 1; text-align: center">
+        <img src="https://dummyimage.com/300x400.png" alt="" />
+      </div>
+    </div>
+    <div class="container"></div>
+  </body>
+</html>

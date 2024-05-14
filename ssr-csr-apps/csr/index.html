@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Client Rendering App</title>
+  </head>
+  <body>
+    <h1>0</h1>
+    <button>Click Me</button>
+    <script>
+      document.querySelector("button").addEventListener("click", () => {
+        const h1 = document.querySelector("h1");
+        h1.textContent = parseInt(h1.textContent) + 1;
+      });
+    </script>
+  </body>
+</html>
